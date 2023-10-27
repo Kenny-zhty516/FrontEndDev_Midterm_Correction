@@ -1,0 +1,26 @@
+/* 
+  Resetting list spacing and style so that the bullets and numbers are removed.
+ */
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding-left: 2rem;
+}
+
+.current>div {
+    font-weight: 900;
+}
+
+/* an <li> with class "current" */
+li.current {
+    font-weight: 900;
+}
+
+.done-tasks li {
+    text-decoration: line-through;
+}
